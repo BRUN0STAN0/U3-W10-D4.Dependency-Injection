@@ -1,7 +1,18 @@
 <app-test [titolo]="title">
-  <h2>test h2 Angular</h2>
+  <h2 #heading>test h2 Angular</h2>
+  <h5>test h5 Angular</h5>
+  <h3 id="ang">ID Ang</h3>
+  <app-content-app></app-content-app>
 </app-test>
 
-<app-test [titolo]="title">
-  <h5>test h5 Angular</h5>
-</app-test>
+<app-content-app #miaRef></app-content-app>
+
+<br /><br />
+<!-- miaRef.mioDato = {{ miaRef.mioDato }} -->
+<hr />
+<hr />
+SERVICE
+<hr />
+<hr />
+<!-- ! SERVICE -->
+<app-userlist></app-userlist>

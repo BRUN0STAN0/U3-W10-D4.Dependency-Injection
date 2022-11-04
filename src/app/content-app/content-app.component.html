@@ -1,0 +1,10 @@
+<p>content-app works!</p>
+<input type="text" value="mio testo" name="test" #field /> <br />
+<input type="text" value="mio testo" name="test2" #field2 /> <br />
+<button type="button" (click)="faiqualcosa(field.value, field2.value)">.</button>
+<!-- TEMPLATE REFERENCE # -->
+
+{{ field.value }}
+{{ field.name }}
+
+{{ mioDato }}
